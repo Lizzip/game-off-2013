@@ -26,8 +26,7 @@ pc.script.create('fps_character_controller', function (context) {
         },
         
         enemyDied: function(){
-        //    enemiesAlive--;  
-            enemiesAlive = 0;
+            enemiesAlive--;
             context.systems.script.broadcast('ui', 'updateEnemyNum', enemiesAlive);
         },
         
