@@ -6,7 +6,7 @@ pc.script.create('level', function (context) {
     };
 
     Level.prototype = {
-        fire: function(){
+        initialize: function(){
             if(sound) this.entity.audiosource.play('Jarvic8');
         },
         
