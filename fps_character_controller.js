@@ -1,5 +1,5 @@
 pc.script.create('fps_character_controller', function (context) {
-    var MOVE_SPEED = 10, shootingRange = 50, state = "red", enemiesAlive = 15;
+    var MOVE_SPEED = 15, shootingRange = 50, state = "red", enemiesAlive = 15;
     
     var FpsCharacterController = function (entity) {
         this.entity = entity;
@@ -115,7 +115,7 @@ pc.script.create('fps_character_controller', function (context) {
                     var pos = value.getPosition();
                     if(pos[1] > 2)
                     {
-                        value.setPosition(pos[0], 0, pos[2]);
+                        value.setPosition(pos[0], 2.5, pos[2]);
                         value.rigidbody.syncEntityToBody();
                     }
                 });
@@ -139,7 +139,7 @@ pc.script.create('fps_character_controller', function (context) {
                     var pos = value.getPosition();
                     if(pos[1] > 2)
                     {
-                        value.setPosition(pos[0], 0, pos[2]);
+                        value.setPosition(pos[0], 2.5, pos[2]);
                         value.rigidbody.syncEntityToBody();
                     }
                 });
