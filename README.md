@@ -15,8 +15,9 @@ WASD - Movement
 Left Click - Fire/Shoot
 
 
-Engines, Projects, Libraries, Tools
+Engines, Projects, Libraries, Tools, Music
 ---
 
 * [PlayCanvas](http://www.playcanvas.com)
 * [jQuery](http://jquery.com/)
+* [Music - Jarvic 8 by Kevin MacLeod] (http://incompetech.com)

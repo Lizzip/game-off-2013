@@ -69,6 +69,7 @@ pc.script.create('main', function (context) {
                 if(options[1].value === "Y")
                 {
                     context.systems.script.broadcast('gun', 'disableSound');
+					context.systems.script.broadcast('level', 'disableSound');
                 }
                 
             }.bind(this));
